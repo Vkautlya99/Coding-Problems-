@@ -16,7 +16,7 @@ print(BuyAndSellStock(Prices))
 #METHOD : 2 - Greedy algorith approach 
 
 def BuyAndSellStockByGreedyAlgorith(PriceArray):
-    min_price = float('inf')
+    min_price = PriceArray[0]
     max_profit = 0
     
     for price in PriceArray:
