@@ -8,7 +8,8 @@ def LongestSubsequence(arr):
     
     num_set = set(arr)
     max_length = 0
-    
+    curr_num = 0
+    curr_length = 0
     for num in arr :
         if num - 1 not in num_set:
             curr_num = num
